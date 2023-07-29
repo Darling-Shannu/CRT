@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link href="Style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar">
+    <div class="navbar-brand">India Tourism</div>
+    <div class="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+            <li><a href="states.html">States</a></li>
+            <li><a href="gallary.html">Gallary</a></li>
+            <li><a href="p7.html">Capitals</a></li>
+            <li><a href="calculator.html">calculator</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </div>
+</div>
+  <script src="script.js"></script>
+    <form>
+        <div class="card signup-card">
+          <div class="card-header">Calculator</div>
+          <!-- card body starts -->
+          <div class="card-body">
+    
+            <div class="form-element">
+              <div class="form-control-container">
+                <div class="form-label">Number1: 
+                <input type="number" id="num1" class="form-control" />
+                <input type="button" value="+" onclick="add()">
+                <input type="button" value="-" onclick="sub()"></div>
+              </div>
+            </div>
+    
+            <div class="form-element">
+              <div class="form-control-container">
+                <div class="form-label">Number2:
+                <input type="number" id="num2" class="form-control">
+                <input type="button" value="/" onclick="div()">
+                <input type="button" value="*" onclick="multi()"></div>
+              </div>
+            </div>
+            <div class="form-element">
+                <div class="form-control-container">
+                <div class="form-label">Result : 
+                  <input type="number" id="num3" class="form-control">
+                  <input type="button" value="clear" onclick="remov()"></div>
+                </div>
+              </div>
+          </div>
+          <!-- card body ends -->
+        </div>
+      </form>
+</body>
+
+</html>
